@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginEnd="10dp"
+    android:background="@color/white"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:elevation="2dp"
+                android:id="@+id/imgbook"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lovebook"
+                app:riv_border_color="#D5D5D5"
+                app:riv_border_width="0.1dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tensach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:text="Tên sách"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/eye"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/eye" />
+
+                <TextView
+                    android:id="@+id/texteye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="13 k"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"></TextView>
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/star"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/textstar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="1,2 k"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"></TextView>
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/chuong"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/list_bulleted" />
+
+                <TextView
+                    android:id="@+id/textchuong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:text="120"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/mota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Mô tả: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/calibri_bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textdetai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đề Tài"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/calibri"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textmota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/rcvbook"
+        android:background="@drawable/vien_linearlayot_chua_recy"
+        android:paddingRight="5dp"
+        android:paddingLeft="17dp"
+        android:clipToPadding="false"/>
+</LinearLayout>

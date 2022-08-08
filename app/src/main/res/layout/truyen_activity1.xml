@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Truyen_Activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shadow_menu_truyen_activity"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/mnuMore_TruyenActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="-10dp"
+            android:src="@drawable/icon_more_64x64" />
+
+        <ImageView
+            android:id="@+id/mnuShare_TruyenActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/mnuMore_TruyenActivity"
+            android:src="@drawable/icon_share_60x60" />
+
+        <ImageView
+            android:id="@+id/mnuBack_TruyenActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/icon_left_48x48" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <!--android:clipToPadding="false" Tạo khoảng trống bên dưới một View-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:paddingRight="75dp"
+                android:paddingLeft="75dp"
+                android:clipToPadding="false"
+                android:id="@+id/rcvTruyenTrangChinh"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên truyện"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/calibri"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:id="@+id/txtTenTruyen_TruyenActivity"
+                    app:lineHeight="35sp"/>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imgAnhTacGia"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:padding="1.5dp"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/shapecircle"
+                        app:strokeColor="#555555"
+                        app:strokeWidth="1.5dp" />
+                    <TextView
+                        android:id="@+id/txtTacGia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="20dp"
+                        android:text="Tên tác giả"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/calibri"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/eye"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12,6K Lượt đọc"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:id="@+id/txtLuotDoc_TruyenActivity"
+                        />
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/star"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="639 Lượt bình chọn"
+                        android:textColor="@color/black"
+                        android:textSize="8sp"
+                        android:id="@+id/txtLuotBinhChon_TruyenActivity"
+                        />
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/list_bulleted"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60 Chương"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:id="@+id/txtSoChuong_TruyenActivity"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="180dp"
+                        android:layout_height="40dp"
+                        android:text="Đọc"
+                        android:textAllCaps="false"
+                        android:background="@drawable/btn_doc_bo_goc"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:id="@+id/btnDoc"
+                        />
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_marginLeft="8dp"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:riv_corner_radius="20dp"
+                        android:src="@drawable/plus2"
+                        android:id="@+id/btnDanhSachDoc"/>
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/intro_description_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nội dung sẽ được hiển thị ở đây"
+                    android:layout_marginTop="35dp"
+                    android:textSize="14sp"
+                    app:lineHeight="20sp"
+                    android:maxHeight="700dp"
+                    android:ellipsize="end"
+                    android:id="@+id/txtMoTaTruyen_TruyenActivity"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/lnlayout_truyen_activity"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/medal_star2"/>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="# 15 - Phùng Nhật"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/calibri"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="35 Chương"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/calibri"
+                        android:textSize="18sp"
+                        android:id="@+id/txtSoChuong_KhungPhu_TruyenActivity"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Đã hoàn thành"
+                        android:textColor="#F84343"
+                        android:fontFamily="@font/calibri"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:text="Các truyện tương tự"
+                    android:textSize="25sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvListBook2_TruyenActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:clipToPadding="false"
+                    android:paddingLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

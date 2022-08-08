@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vien_linearlayot_chua_recy">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txtDeTai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đề Tài"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/calibri_bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txtMoTaDeTai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:textSize="15dp"
+        android:fontFamily="@font/calibri"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:id="@+id/rcvDeTai"
+            android:paddingRight="283dp"
+            android:clipToPadding="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lnlayout_Detai1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtTenTruyen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="40dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/calibri_bold"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp"
+                    android:text="Tên truyện"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgBaseLineVert_TruyenActivity"
+                    android:layout_width="15dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-35dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/txtTenTruyen1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_more_90x90" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/list_bulleted"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Chương"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:id="@+id/txtChuong_DeTai1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hoàn thành"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/txt_hoan_thanh_de_tai2"
+                    android:layout_marginLeft="15dp"/>
+            </LinearLayout>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Mô tả"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:id="@+id/txtMoTa1"
+                android:fontFamily="@font/calibri"
+                app:lineHeight="25sp"
+                />
+            <Button
+                android:paddingLeft="5dp"
+                android:id="@+id/btnXemChiTiet"
+                android:textColor="@color/black"
+                android:fontFamily="@font/calibri_bold"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="235dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_chuyen_mau"
+                android:text="Xem chi tiết"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/more_than_24x24"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

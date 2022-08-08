@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.149" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable-v24/vien_linearlayot_chua_recy.xml" value="0.149" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable-v24/vien_linearlayout_home.xml" value="0.149" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable-v24/vien_linearlayout_item_book.xml" value="0.145" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/btn_chuyen_mau.xml" value="0.147" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/btn_dau_cong.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/btn_doc_bo_goc.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/circleimagebutton.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/lnlayout_truyen_activity.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/shadow.xml" value="0.16" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/shadow_img.xml" value="0.145" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/shadow_item_chuong_truyen.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/shadow_menu_truyen_activity.xml" value="0.152" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/shape_menu.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/drawable/txt_hoan_thanh_de_tai2.xml" value="0.1545" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/font/arial.xml" value="0.23489583333333333" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_home.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_intro.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_man_hinh_doc_truyen.xml" value="0.24375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_man_hinh_phu_truyen_du_lieu.xml" value="0.1828125" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_profile_user.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_register.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_slides.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_splash.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/activity_truyen.xml" value="0.176" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/dialog.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/dialog_avatar.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/dialog_background.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/doimk_dialog.xml" value="0.1953125" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/fragment_conversation.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/fragment_introduce.xml" value="0.1953125" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/fragment_library.xml" value="0.1953125" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/item_book.xml" value="0.264" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/item_book1.xml" value="0.264" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/item_chuong_truyen.xml" value="0.24375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/item_detai.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/item_detai1.xml" value="0.264" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/layout_setting.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/list_book_truyen_chinh_activity.xml" value="0.24375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/list_book_truyen_phu_activity.xml" value="0.2234375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/listitem_profile.xml" value="0.259375" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/layout/truyen_activity1.xml" value="0.24270833333333333" />
+        <entry key="..\:/BaiTapAndroid/BOOKAPP2/app/src/main/res/menu/menu.xml" value="0.259375" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable-v24/vien_linearlayout_home.xml" value="0.1135" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/backgroud_dialog.xml" value="0.1135" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/bg_edittext.xml" value="0.1135" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/btn_chuyen_mau.xml" value="0.1155" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/card_view_shape.xml" value="0.1215" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/circleimage.xml" value="0.1455" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/circleimagebutton.xml" value="0.133" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.102" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.104" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.104" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/roundedbutton.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/roundededit.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/roundedimg.xml" value="0.1455" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/rounedcardview.xml" value="0.1455" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shadow.xml" value="0.1215" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shadow_1.xml" value="0.1215" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shadow_cardview.xml" value="0.1215" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shadow_menu_truyen_activity.xml" value="0.118" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shape_button1.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shape_button2.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/drawable/shape_menu.xml" value="0.133" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_intro.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_man_hinh_doc_truyen.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_man_hinh_phu_truyen_du_lieu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_profile_user.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_search.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_slides.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/conversation_introduce.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/dialog_avatar.xml" value="0.1" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/dialog_background.xml" value="0.1" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/doimk_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/fragment_introduce.xml" value="0.22" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/fragment_library.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/fragment_notifi.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/fragment_search.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_book.xml" value="0.22" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_book1.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_chuong_truyen.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_detai.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_detai1.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_introduce.xml" value="0.165625" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/item_library.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/layout_setting.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/list_book_truyen_chinh_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/list_book_truyen_phu_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/listitem_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/profile_slides.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/toolbar_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/layout/truyen_activity1.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/Computer/.android/2022/test/BOOKAPP2/app/src/main/res/menu/menu_profile.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

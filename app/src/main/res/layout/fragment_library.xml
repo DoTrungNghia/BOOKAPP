@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_menu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Thư viện"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imagebtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
+            android:src="@drawable/more_vert_" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tkLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:text="Danh sách đọc của: User"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/numberBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tkLibrary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="2 sách"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberBook"
+            android:layout_centerHorizontal="true">
+        </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
